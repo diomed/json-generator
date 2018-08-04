@@ -1,0 +1,13 @@
+body
+{background-color: royalblue;}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.eo
+{width: 720px; margin: 20px;}
+.pre
+{word-break:break-word}
