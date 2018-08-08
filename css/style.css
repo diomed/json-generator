@@ -10,4 +10,5 @@ body
 .eo
 {width: 720px; margin: 20px;}
 .pre
-{word-break:break-word}
+{ font-family: Operator Mono;
+  word-break:break-word}
