@@ -32,7 +32,28 @@ document.getElementById('result').innerHTML = result;
 // Second form submit: [{"user":"test1","age":"40"},{"user":"test2","age":"32"}]
 
 //clears everything one has typed
+function functions() {
 function clearArray(){
   myArr = [];
   document.getElementById('result').innerHTML = '';
-}
+};
+
+swal({
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  type: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, delete it!'
+}).then((result) => {
+  if (result.value) {
+    clearArray();
+    swal(
+      'Deleted!',
+      'Everything has been deleted.',
+      'success'
+    )
+  }
+})
+};
