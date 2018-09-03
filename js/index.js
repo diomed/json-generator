@@ -26,7 +26,7 @@ const inputArr = [0, 1].map(ind => document.querySelectorAll("input")[ind].value
 function getResult(){
   let result = JSON.stringify(myArr);
  result = result.replace(/\,(?={)/g, ',\n');
-document.getElementById('result').innerHTML = result;
+document.getElementById('result').innerHTML = <span style='word-break:break-word'>result</span>;
 }
 // First form submit: [{"user":"test1","age":"40"}]
 // Second form submit: [{"user":"test1","age":"40"},{"user":"test2","age":"32"}]
