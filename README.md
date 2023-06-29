@@ -1,4 +1,4 @@
 # json-generator
 simple json generator [tailwind]
 
-[title-description generator](diomed.github.io/json-generator/)
+[title-description generator](https://diomed.github.io/json-generator/generator.html)
